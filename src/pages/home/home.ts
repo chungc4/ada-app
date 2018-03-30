@@ -43,7 +43,7 @@ export class HomePage {
 
     var thisNumOfDays = new Date(this.date.getFullYear(), this.date.getMonth()+1, 0).getDate();
     for (var i = 0; i < thisNumOfDays; i++) {
-      this.daysInThisMonth.push(i+1);s
+      this.daysInThisMonth.push(i+1);
     }
 
     var lastDayThisMonth = new Date(this.date.getFullYear(), this.date.getMonth()+1, 0).getDay();
